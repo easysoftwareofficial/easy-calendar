@@ -56,7 +56,7 @@ class CalenderScreen extends StatelessWidget {
             children: [
               Flexible(
                 child: IconButton(
-                  onPressed: () => ____,
+                  onPressed: ____(),
                   icon: Icon(
                     Icons.keyboard_arrow_left,
                     color: Colors.grey.shade500,
@@ -92,7 +92,7 @@ class CalenderScreen extends StatelessWidget {
               ),
               Flexible(
                 child: IconButton(
-                  onPressed: () => ___,
+                  onPressed: ___(),
                   icon: Icon(
                     Icons.keyboard_arrow_right,
                     color: Colors.grey.shade500,
