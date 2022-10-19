@@ -1,7 +1,8 @@
 import 'package:easycalendar/clean_nepali_calendar.dart';
 import 'package:easycalendar/date_utils.dart';
-import 'package:easycalendar/src/calender_ui/english_date_builder.dart';
 import 'package:flutter/material.dart';
+
+import 'english_date_builder.dart';
 
 class CalenderScreen extends StatelessWidget {
   final NepaliCalendarController nepaliCalendarController;
