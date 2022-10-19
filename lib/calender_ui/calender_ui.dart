@@ -127,8 +127,8 @@ class CalenderScreen extends StatelessWidget {
         ),
       ),
       initialDate: NepaliDateTime.now(),
-      firstDate: firstDate,
-      lastDate: lastDate,
+      firstDate: NepaliDateTime(2075, 1),
+      lastDate: NepaliDateTime(2090, 12),
       language: Language.nepali,
       onDaySelected: (date) {
         onDaySelected(date);
