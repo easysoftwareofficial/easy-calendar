@@ -6,7 +6,7 @@ import 'english_date_builder.dart';
 
 class CalenderScreen extends StatelessWidget {
   final NepaliCalendarController nepaliCalendarController;
-  final NepaliDateTime firstDate, lastDate;
+  // final NepaliDateTime firstDate, lastDate;
   final Function(NepaliDateTime) onDaySelected;
   final HeaderGestureCallback? onHeaderLongPressed;
   final HeaderGestureCallback? onHeaderTapped;
@@ -14,8 +14,8 @@ class CalenderScreen extends StatelessWidget {
   const CalenderScreen(
       {super.key,
       required this.nepaliCalendarController,
-      required this.firstDate,
-      required this.lastDate,
+      // required this.firstDate,
+      // required this.lastDate,
       required this.onDaySelected,
       this.onHeaderLongPressed,
       this.onHeaderTapped});
