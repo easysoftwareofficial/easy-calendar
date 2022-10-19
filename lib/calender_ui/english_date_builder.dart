@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nepali_utils/nepali_utils.dart';
 
-bool _dayEquals(NepaliDateTime a, NepaliDateTime b) {
+bool dayEquals(NepaliDateTime a, NepaliDateTime b) {
   return a.toIso8601String().substring(0, 10) ==
       b.toIso8601String().substring(0, 10);
 }

@@ -1,7 +1,7 @@
 name: easycalendar
 description: A new flutter nepali calendar
 version: 0.0.1
-homepage:
+homepage: https://github.com/easysoftwareofficial/easy-calendar
 
 environment:
   sdk: '>=2.18.0 <3.0.0'
